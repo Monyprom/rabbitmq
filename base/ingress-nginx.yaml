@@ -7,7 +7,6 @@ metadata:
 #    nginx.ingress.kubernetes.io/enable-underscores-in-headers: "true"
 #    nginx.ingress.kubernetes.io/ssl-passthrough: "false"
   name: rabbit-ing-1
-  namespace: rabbitmq
 spec:
   ingressClassName: nginx
   rules:
